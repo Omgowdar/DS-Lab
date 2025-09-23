@@ -14,7 +14,8 @@ int main()
     scanf("%d",&num1);
     printf("Enter value of num2=");
     scanf("%d",&num2);
-    printf("before swaping num1=%d , and num2=%d",&num1,&num2);
+    printf("before swaping num1=%d , and num2=%d\n",&num1,&num2);
     swap(&num1,&num2);
     printf("after swaping num1=%d , and num2=%d",&num1,&num2);
+
 }
